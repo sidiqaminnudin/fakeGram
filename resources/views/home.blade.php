@@ -13,9 +13,9 @@
                <div class="pr-5"><strong>21k</strong> followers</div>
                <div class="pr-5"><strong>1</strong> following</div>
            </div>
-           <div class="pt-4 font-weight-bold">sandog.org</div>
-           <div>Incididunt laborum proident cillum nulla sint aute voluptate voluptate et. Ex cillum sunt sint velit amet in voluptate deserunt occaecat sed voluptate nostrud occaecat aliquip sed.</div>
-           <div><a href="#">sandog.org</a></div>
+           <div class="pt-4 font-weight-bold">{{$user->profile->title}}</div>
+           <div>{{$user->profile->description}}</div>
+           <div><a href="#">{{$user->profile->url ?? "N/A"}}</a></div>
        </div>
    </div>
    <div class="row pt-5">
